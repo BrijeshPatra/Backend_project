@@ -2,6 +2,7 @@
 // Import necessary libraries and modules
 import dotenv from "dotenv";
 import connectDB from "./db/index.js";
+import {app} from "./app.js"
 
 // Configure dotenv to load environment variables from './env' file
 dotenv.config({
@@ -18,7 +19,7 @@ connectDB()
     })
     .catch((err) => {
         // If MongoDB connection fails, log the error
-        console.log("Mongo DB connection failed !!", err);
+        console.log("Server not connected !!", err);
     });
 
 
