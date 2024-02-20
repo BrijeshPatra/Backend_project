@@ -25,7 +25,7 @@ app.use(express.static("public"));
 app.use(cookieParser());
 
 //routes import ->seggregation of files
-import userRouter from './routes/user.route.js'
+import userRouter from './routes/user.router.js'
 
 //routes declaration {middleware}
 app.use("/api/v1/users", userRouter)

@@ -6,15 +6,15 @@ import {app} from "./app.js"
 
 // Configure dotenv to load environment variables from './env' file
 dotenv.config({
-    path: './env'
+    path: './.env'
 });
 
 // Connect to MongoDB using the connectDB function
 connectDB()
     .then(() => {
         // If MongoDB connection is successful, start the Express server
-        app.listen(process.env.PORT || 8000, () => {
-            console.log(`Server is running at port: ${process.env.PORT || 8000}`);
+        app.listen(process.env.PORT || 8080, () => {
+            console.log(`Server is running at port: ${process.env.PORT || 8080}`);
         });
     })
     .catch((err) => {
