@@ -90,4 +90,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or support, contact [Your Name] at [Your Email Address].
+For any inquiries or support, contact [Brijesh Patra] at [brijeshpatra25@gmail.com].
